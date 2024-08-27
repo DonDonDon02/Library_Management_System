@@ -124,7 +124,8 @@ def view_books():
         messagebox.showinfo('',"No book.")
     else:
         #print(df.to_string(index=False))
-        output.insert(END, f'{df}\n\n')
+        output.insert(END, f'{df}\n\n')  
+        print("")
         
 
 
