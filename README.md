@@ -3,6 +3,10 @@
 ## Overview
 This is a simple Library Management System built using Python, SQLite, and Tkinter. It allows users to manage books, members, and borrowing records in a library.
 
+## Schema
+
+![alt text](image.png)
+
 ## Features
 - **Book Management**: Add, update, and view books.
 - **Member Management**: Add, update, and view library members.
