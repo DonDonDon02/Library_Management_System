@@ -22,7 +22,8 @@ This is a simple Library Management System built using Python, SQLite, and Tkint
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/DonDonDon02/Library_Management_System.git
+
    cd <repository-directory> 
    ```
 
@@ -31,4 +32,9 @@ This is a simple Library Management System built using Python, SQLite, and Tkint
     ```bash
    pip install pandas
    ```
+
+
+## Overview 
+![alt text](image-1.png)
+
 
