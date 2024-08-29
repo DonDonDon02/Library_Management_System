@@ -12,7 +12,10 @@ conn = sqlite3.connect('library_database.db')
 cursor = conn.cursor()
  
 #   create table
-def create_table():
+def create_table()-> None:
+    '''
+    Create Table if NOT EXISTS 
+    '''
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS Books (
         book_id INTEGER PRIMARY KEY,
@@ -101,7 +104,7 @@ def download_members():
 
  
 # view borrow_return list
-def view_records():
+def view_records(): 
     conn = sqlite3.connect('library_database.db')
     cursor = conn.cursor()
     sql_query = pd.read_sql_query('SELECT * FROM Borrowing_records',conn)
